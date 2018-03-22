@@ -8,16 +8,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="favicon.ico" rel="icon" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="./style.csss">
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+
   <style type="text/css">
-    .container {
-      text-align: center
+    body {
+      background: #000 url(./background.jpg);
+      background-size: cover;
     }
 
-    #container {
-      width: 600px;
-      margin: 0 auto;
+    .container {
+      text-align: center;
+      margin: 0;
+
+      color: #FFF;
+      padding: 20px;
     }
+
 
     .code {
       text-align: left;
@@ -35,6 +41,11 @@
     .footer-text {
       text-align: center;
       color: #888;
+      margin: 20px;
+    }
+
+    .sub-text {
+      margin: 10px;
     }
 
     .slogon-logo {
@@ -44,6 +55,9 @@
 
     .slogon-text {
       text-align: center;
+      color: #FFF;
+      margin: 10px;
+      text-shadow: #000 2px 2px 4px;
     }
   </style>
 
@@ -52,7 +66,6 @@
 <body>
 
   <div class="container">
-    <img class="slogon-logo" src="./app_icon.jpg" />
     <h1 class="slogon-text">猩球(Starment)</h1>
 
     <h3 class="slogon-text">一款实验性APP</h3>
@@ -64,23 +77,27 @@
     <h3 class="slogon-text">If human credit is based on other people's comments，so what will society look like?</h3>
     <h3 class="slogon-text">Ideas come from the society described in American TV "Black Mirror" S3E1 </h3>
     <h4 class="slogon-text">*This APP is mainly used to experiment with new technology and new ideas</h4>
-    <p>Android
+
+    <img class="slogon-logo" src="./app_icon.jpg" />
+
+
+    <p class="sub-text">Android
       <a href="https://starmark.oss-cn-beijing.aliyuncs.com/apk/app-release.apk" target="_blank">下载地址</a>
     </p>
-    <p>iOS
+    <p class="sub-text">iOS
       <a href="" target="_blank">我看看怎么弄</a>
     </p>
 
     <p>Github
       <a href="https://github.com/chenjinya" target="_blank">https://github.com/chenjinya</a>
     </p>
-
+    <footer>
+      <p class="footer-text">&copy; 2018</p>
+    </footer>
 
   </div>
 
-  <footer>
-    <p class="footer-text">&copy; 2018</p>
-  </footer>
+
 
 </body>
 

@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4,h5,h6,div,dt,dd,p,ul,li,ol,input,a{ padding:0;margin:0; font-family:Arial,"Microsoft Yahei",sans-serif; font-weight: 100;}
+html,body,h1,h2,h3,h4,h5,h6,div,dt,dd,p,ul,li,ol,input,a{ padding:0;margin:0; font-family:Arial,"Microsoft Yahei",sans-serif; font-weight: 100;}
 li{list-style:none;}
 
 a{text-decoration:dotted; color:#6b7ea6;
